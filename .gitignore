@@ -1,0 +1,8 @@
+build
+.idea
+cmake_install.cmake
+CMakeFiles
+CMakeCache.txt
+Makefile
+STM32F4Template.cbp
+Testing
