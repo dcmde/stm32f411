@@ -25,6 +25,7 @@ mkdir build
 cmake -G "Unix Makefiles" -DCMAKE_TOOLCHAIN_FILE=../CMake/GNU-ARM-Toolchain.cmake ..
 cd build 
 make
+st-flash write src/STM32F4Template.bin 0x8000000
 ```
 
 ## Other STM32
